@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:41243/</loc>
+    <lastmod>2026-11-26T22:41:22+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:41243/posts/</loc>
+    <lastmod>2026-11-26T22:41:22+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:41243/about/</loc>
     <lastmod>2026-11-26T22:28:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:41243/</loc>
-    <lastmod>2026-11-26T22:28:22+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:41243/posts/hello-world/</loc>
-    <lastmod>2026-11-26T22:23:19+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41243/posts/</loc>
     <lastmod>2026-11-26T22:23:19+08:00</lastmod>
   </url><url>
     <loc>http://localhost:41243/categories/</loc>
