@@ -1,0 +1,21 @@
+banner: images/mari.png
+avatar: rabbit.png
+ruri:
+  brandMark: "r."
+  tagline: Per aspera ad astra.
+  season: winter
+  # seasonBanners:
+  #   winter: images/winter.webp
+  homeEyebrow: NOTE, TECH & POEM
+  homeHeading: [A quiet place, for your words.]
+  footerText: Made with care.
+  # favicon: 
+menu:
+  - name: home
+    url: /
+  - name: archives
+    url: /archives/
+  - name: friend
+    url: /friend/
+  - name: moments
+    url: /moments/

@@ -1,0 +1,4 @@
+theme = "ruri"
+baseURL = 'https://racobit.me/'
+locale = 'en-us'
+title = 'My New Hugo Project'
