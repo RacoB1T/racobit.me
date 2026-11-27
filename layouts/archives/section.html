@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.MainSections }}
+{{ $heatmapTitle := i18n "ruri_heatmap_title" }}
+{{ $source := .Site.GetPage (.Site.Params.ruri.heatmapExclude | default "/archives") }}
+<section class="archive-heatmap" aria-labelledby="archive-heatmap-title">
+  <h2 id="archive-heatmap-title">{{ $heatmapTitle }}</h2>
+  {{ partial "heatmap.html" (dict "Page" ($source | default .) "levelStandard" "500,1000,3000,5000,10000") }}
+</section>
+<div class="archive-taxonomies">{{ partial "taxonomies.html" . }}</div>
+<div class="section-heading article-list-heading">
+  <div><p class="eyebrow">COLLECTION / {{ len $pages }}</p><h1>{{ .Title }}</h1></div>
+</div>
+{{ .Content }}
+
+<style>
+  .archive-entries a::before {
+    content: "•";
+    margin-inline-end: 0.4em;
+    color: var(--muted);
+  }
+  .archive-entries { list-style: none; margin: 0; padding: 0; }
+  .archive-entries li {
+    display: grid;
+    grid-template-columns: 5ch minmax(0, 1fr);
+    align-items: baseline;
+    gap: 0.75rem;
+    padding-block: 6px;
+  }
+  .archive-entries time { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .archive-entries a { overflow-wrap: anywhere; }
+  .archive-entries a:hover { text-decoration: underline; text-underline-offset: 4px; }
+</style>
+<div class="archive-tree">
+  {{ range $pages.ByDate.Reverse.GroupByDate "2006" }}
+  <section class="archive-year" data-year="{{ .Key }}">
+    <h2>{{ .Key }}</h2>
+    <ul class="archive-entries">
+      {{ range .Pages }}
+      <li>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01/02" }}</time>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

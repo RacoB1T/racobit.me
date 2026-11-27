@@ -1,6 +1,10 @@
 banner: images/mari.png
 avatar: rabbit.png
 author: racobit
+description: "记录技术、生活和偶尔的奇思妙想。"
+social:
+  - name: GitHub
+    url: https://github.com/RacoB1T
 ruri:
   brandMark: "r."
   tagline: Per aspera ad astra.
@@ -20,3 +24,5 @@ menu:
     url: /friend/
   - name: 随感
     url: /moments/
+  - name: 关于
+    url: /about/
