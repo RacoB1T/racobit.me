@@ -40,3 +40,7 @@ player:
     - name: "歌曲名"
       artist: "歌手名"
       url: "https://example.org/music/song.mp3"
+
+waline:
+  enable: true
+  serverURL: "https://walineracobitme-ohn7.vercel.app"

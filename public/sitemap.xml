@@ -2,32 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/moments/hello/</loc>
-    <lastmod>2026-11-27T10:36:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/moments/</loc>
-    <lastmod>2026-11-27T10:36:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-11-27T10:36:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:38367/posts/</loc>
     <lastmod>2026-11-26T22:41:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:38367/</loc>
+    <lastmod>2026-11-26T22:41:22+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:38367/about/</loc>
     <lastmod>2026-11-26T22:28:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>http://localhost:38367/posts/hello-world/</loc>
     <lastmod>2026-11-26T22:23:19+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:38367/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:38367/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:38367/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/friends/</loc>
+    <loc>http://localhost:38367/moments/</loc>
   </url><url>
-    <loc>http://localhost:1313/resources/</loc>
+    <loc>http://localhost:38367/friends/</loc>
+  </url><url>
+    <loc>http://localhost:38367/resources/</loc>
   </url>
 </urlset>

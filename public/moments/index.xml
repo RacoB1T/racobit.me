@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moments on 征集网站名字中</title>
-    <link>http://localhost:1313/moments/</link>
+    <title>随感 on 征集网站名字中</title>
+    <link>http://localhost:42685/moments/</link>
     <description>Recent content from 征集网站名字中</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -10,7 +10,7 @@
     <copyright></copyright>
     
     
-    <atom:link href="http://localhost:1313/moments/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:42685/moments/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
