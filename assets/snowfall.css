@@ -1,0 +1,4 @@
+:root[data-season=winter] .winter-snow > i {
+  animation-duration: calc(var(--fall-duration) * var(--fall-scale));
+  animation-delay: calc(-1 * var(--fall-duration) * var(--fall-scale) * var(--fall-phase));
+}
