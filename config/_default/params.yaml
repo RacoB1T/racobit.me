@@ -1,18 +1,23 @@
 banner: images/mari.png
 avatar: rabbit.png
 author: racobit
-description: "记录技术、生活和偶尔的奇思妙想。"
+description: "我还没想好这里要写什么..."
 social:
   - name: GitHub
     url: https://github.com/RacoB1T
 ruri:
   brandMark: "r."
   tagline: Per aspera ad astra.
+  caption: "这只是一个占位符"
+  captionTranslation: "这也是一个占位符"
   season: winter
   # seasonBanners:
   #   winter: images/winter.webp
   homeEyebrow: NOTE, TECH & POEM
-  homeHeading: [A quiet place, for your words.]
+  homeHeading: 
+    - "这里五个字，"
+    - "这里要写七个字，"
+    - "这里五个字。"
   footerText: Made with care.
   # favicon: 
 menu:
@@ -21,7 +26,7 @@ menu:
   - name: 归档
     url: /archives/
   - name: 友链
-    url: /friend/
+    url: /friends/
   - name: 随感
     url: /moments/
   - name: 关于
