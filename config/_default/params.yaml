@@ -25,9 +25,18 @@ menu:
     url: /
   - name: 归档
     url: /archives/
-  - name: 友链
-    url: /friends/
   - name: 随感
     url: /moments/
+  - name: 友链
+    url: /friends/
+  - name: 资源站
+    url: /resources/
   - name: 关于
     url: /about/
+
+player:
+  enable: true
+  audio:
+    - name: "歌曲名"
+      artist: "歌手名"
+      url: "https://example.org/music/song.mp3"
