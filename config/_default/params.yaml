@@ -11,11 +11,11 @@ ruri:
   footerText: Made with care.
   # favicon: 
 menu:
-  - name: home
+  - name: 首页
     url: /
-  - name: archives
+  - name: 归档
     url: /archives/
-  - name: friend
+  - name: 友链
     url: /friend/
-  - name: moments
+  - name: 随感
     url: /moments/
